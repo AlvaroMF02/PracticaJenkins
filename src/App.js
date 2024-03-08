@@ -46,6 +46,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+      <h1>Modificacion hecha por Alberto</h1>
         <h1>Aplicacion de react en Jenkins</h1>
         {/* <Spinner color={this.state.color} type="grow" /> */}
         <Circulo color={this.state.color} func={()=>this.cambiarLetrero()}/>
